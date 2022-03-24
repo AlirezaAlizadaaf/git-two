@@ -1,0 +1,16 @@
+body
+{
+  text-align: center;
+  margin: 0;
+  font-style: italic;
+}
+#title
+{
+  margin-bottom: 40px;
+}
+#main
+{
+  box-sizing: border-box;
+  background: gray;
+  margin:30px;
+}
