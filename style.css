@@ -1,16 +1,48 @@
+*
+{
+  box-sizing: border-box;
+}
+html
+{
+  font-size: 1rem;
+}
 body
 {
   text-align: center;
   margin: 0;
   font-style: italic;
-}
-#title
-{
-  margin-bottom: 40px;
+  line-height: 30px;
+  background: rgb(193, 197, 187);
 }
 #main
 {
-  box-sizing: border-box;
-  background: gray;
-  margin:30px;
+  max-width: 100%;
+  background: rgb(193, 245, 203);
+  margin:30px 10px;
+  border-radius: 3%;
+}
+#header
+{
+  padding: 20px 0 0 0;
+}
+#title
+{
+  padding-bottom: 20px;
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+
+img
+{
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  height: auto;
+}
+.country-image
+{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
 }
